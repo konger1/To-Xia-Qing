@@ -5,15 +5,15 @@ var config = {
     texts: [
         "夏青同学,生日快乐!",      //这里,每句话结尾的最后一个逗号必须是英文的哦!! 很重要哦!!
         "希望你",  // 同上...
-        "在新的一年",
-        "属于你的本命年里",
-        "快乐",
-        "健康",
+        //"在新的一年",
+        "在属于自己的节日里",
+        "快乐,幸福",
+        //"健康",
         "绽放最绚烂的笑容",
         "拥有明天最美的梦",
         "今天",
         "要与家人幸福的度过呀",
-        "最后，谢谢你的陪伴,108天~~",
+        "谢谢你陪伴至今的108天~~",
     ],
     /**
      * imgs 可以不填, 但是如果要填写的话必须遵循下面的格式
@@ -26,7 +26,7 @@ var config = {
      */
     imgs: {
         //"心爱的小可爱": "./imgs/xiaokeai.png",
-        // "今天是你的生日": "./imgs/birthday.jpg",
+         "夏青の生日!": "./imgs/birthday.jpg",
     },
     // 按钮文字描述, 以下是默认的按钮文字，英文的，您可以改成你喜欢的文字
     desc: {
@@ -34,9 +34,9 @@ var config = {
         play: "音乐",
         bannar_coming: "颜色",
         balloons_flying: "好像少点东西",
-        //cake_fadein: "蛋糕？",
-        //light_candle: "蜡烛？",
-        wish_message: "除夕快乐ya",
+        cake_fadein: "蛋糕？",
+        light_candle: "蜡烛？",
+        wish_message: "生日快乐ya",
         story: "A MESSAGE FOR YOU",
     }
 };
